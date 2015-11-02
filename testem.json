@@ -2,6 +2,8 @@
   "framework": "qunit",
   "test_page": "tests/index.html?hidepassed",
   "disable_watching": true,
+  "key": "ssl/server.key",
+  "cert": "ssl/server.crt",
   "launch_in_ci": [
     "PhantomJS"
   ],
